@@ -9,6 +9,46 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
+        <main>
+            <div class="conversion-form">
+                <h1 class="title">Currency Converter</h1>
+
+                <div class="amount-input">
+                    <label for="amount">Enter Amount</label>
+                    <input type="number" name="Input Amount" id="amount">
+                </div>
+
+                <div class="conversion-box">
+                    <div class="primary">
+                        <label for="primary-currency">From</label>
+
+                        <select name="primary-currency" id="primary-currency">
+                            <option value="INR">INR</option>
+                        </select>
+                    </div>
+
+                    <div class="convert-image">
+                        <img src="./images/arrow.png" alt="" class="arrows">
+                    </div>
+
+                    <div class="secondary">
+                        <label for="secondary-currency">To</label>
+
+                        <select name="secondary-currency" id="secondary-currency">
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+
+                <text class="exchange-amount">
+                    1,000 USD = 73,704.26 INR
+                </text>
+
+                <button class="exchange-button">
+                    Get Exchange Rate
+                </button>
+            </div>
+        </main>
         <script src="./script.js"></script>
     </body>
 </html>
