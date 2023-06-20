@@ -1,6 +1,6 @@
-# ADVICE GENERATOR
+# CURRENCY CONVERSION APP
 
-![Design preview for Advice Generator](./design/desktop-design.jpg)
+![Design preview for Currency Conversion App](./design/desktop-design.jpg)
 
 ## Welcome! 👋
 
