@@ -92,7 +92,6 @@ main {
 .conversion-box {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 .primary {
@@ -131,6 +130,7 @@ select {
 
 .arrows {
     height: 60%;
+    cursor: pointer;
 }
 
 .secondary {
@@ -173,5 +173,8 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 376px) {
+    main {
+        width: 21.5rem;
+    }
 }

@@ -15,36 +15,30 @@
 
                 <div class="amount-input">
                     <label for="amount">Enter Amount</label>
-                    <input type="number" name="Input Amount" id="amount">
+                    <input type="number" name="Input Amount" id="input-amount">
                 </div>
 
                 <div class="conversion-box">
                     <div class="primary">
-                        <label for="primary-currency">From</label>
+                        <label for="primary-list">From</label>
 
-                        <select name="primary-currency" id="primary-currency">
-                            <option value="INR">INR</option>
-                        </select>
+                        <select id="primary-list"></select>
                     </div>
 
                     <div class="convert-image">
-                        <img src="./images/arrow.png" alt="" class="arrows">
+                        <img src="./images/arrow.png" alt="" class="arrows" id="swap-button">
                     </div>
 
                     <div class="secondary">
-                        <label for="secondary-currency">To</label>
+                        <label for="secondary-list">To</label>
 
-                        <select name="secondary-currency" id="secondary-currency">
-                            <option value="USD">USD</option>
-                        </select>
+                        <select id="secondary-list"></select>
                     </div>
                 </div>
 
-                <text class="exchange-amount">
-                    1,000 USD = 73,704.26 INR
-                </text>
+                <text class="exchange-amount" id="exchange-amount"></text>
 
-                <button class="exchange-button">
+                <button class="exchange-button" id="get-exchange">
                     Get Exchange Rate
                 </button>
             </div>
